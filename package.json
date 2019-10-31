@@ -1,0 +1,29 @@
+{
+  "name": "js-react",
+  "version": "1.0.0",
+  "description": "estudando node-js com react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nolfad/node-js-react.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "react"
+  ],
+  "author": "Iago Lopes Daflon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nolfad/node-js-react/issues"
+  },
+  "homepage": "https://github.com/Nolfad/node-js-react#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "s": "^1.0.0"
+  }
+}
