@@ -10,6 +10,9 @@ app.get('/', (req, res) =>{
   res.send('funcionando')
 })
 
+const rotas = require('./rotas')
+app.use('/api', rotas)
+
 app.listen(port, () => {
   console.log("server runing on http://localhost:", port)
 })
