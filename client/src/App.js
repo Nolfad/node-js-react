@@ -4,7 +4,11 @@ import './App.css';
 import axios from 'axios';
 
 function App() {
- axios.get('api/postagens')
+  axios.get('/postagens')
+  .then(resultado =>{
+    console.log(resultado)
+  })
+  axios.get('/comentarios/1')
   .then(resultado =>{
     console.log(resultado)
   })
