@@ -6,6 +6,10 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 const port = 3001
 
+app.get('/', (req, res) =>{
+  res.send('funcionando')
+})
+
 app.listen(port, () => {
   console.log("server runing on http://localhost:", port)
 })
